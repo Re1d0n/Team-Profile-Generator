@@ -1,5 +1,9 @@
 const fs = require('fs')
 const inquirer = require ('inquirer');
+const Engineer=require ('./models/Engineer')
+const Intern=require ('./models/Intern')
+const Manager=require ('./models/Manager')
+const Team=[]
 inquirer.prompt([
 {
     type: "input",
@@ -26,6 +30,7 @@ inquirer.prompt([
     console.log(
         Response
  )
+ const officeManager
 
 }
 )
