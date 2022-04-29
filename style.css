@@ -1,0 +1,56 @@
+.Manager,.Engineer,.Intern {
+    width: 40%;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 2px;
+    padding-right: 50px;
+  }
+ 
+ .Name {
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 5%;
+  }
+
+  .Position {
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+  }
+
+  .ID {
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+  }
+
+  .Email {
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+  }
+
+  .officeNumber {
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+  }
+
+  .School {
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+  }
+
+  .gitHub {
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+  }
