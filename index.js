@@ -2,6 +2,7 @@ const fs = require('fs')
 const inquirer = require ('inquirer');
 const Choices = require('inquirer/lib/objects/choices');
 const { type } = require('os');
+const generateTeam = require('./generateTeam');
 const Engineer=require ('./models/Engineer')
 const Intern=require ('./models/Intern')
 const Manager=require ('./models/Manager')
@@ -118,5 +119,7 @@ function addEngineer(){
         })
  }
  function createTeam(){
-console.log(Team)
+fs.writeFile("TeamProfileGenerator.html",generateTeam(Team),err=>{
+    if(err){throw err}
+})
  }
